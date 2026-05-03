@@ -10,7 +10,7 @@ Built alongside completing CCNA and AZ-104 certifications.
 |---|---------|--------|--------|
 | 01 | [Hub-and-Spoke VNet](./project-01-hub-spoke-vnet) | ✅ Complete | Azure, VNet, Peering |
 | 02 | [VLAN + OSPF Lab](./project-02-vlan-ospf) | ✅ Complete | VLANs, OSPF, Inter-VLAN routing |
-| 03 | Secure VM Deployment | Upcoming | NSG, Bastion, Managed Identity |
+| 03 | [Secure VM Deployment](./project-03-secure-vm) | ✅ Complete | NSG, Bastion, Managed Identity |
 | 04 | Azure DNS Lab | Upcoming | DNS, Private Zones |
 | 05 | Site-to-Site VPN | Upcoming | VPN Gateway, Hybrid |
 | 06 | Load Balancing Lab | Upcoming | ALB, App Gateway |
