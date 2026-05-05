@@ -13,7 +13,7 @@ Built alongside completing CCNA and AZ-104 certifications.
 | 03 | [Secure VM Deployment](./project-03-secure-vm) | ✅ Complete | NSG, Bastion, Managed Identity |
 | 04 | [Azure DNS Lab](./project-04-azure-dns) | ✅ Complete | DNS, Private Zones |
 | 05 | [Site-to-Site VPN](./project-05-site-to-site-vpn) | ✅ Complete | VPN Gateway, Hybrid |
-| 06 | Load Balancing Lab | Upcoming | ALB, App Gateway |
+| 06 | [Load Balancing Lab](./project-06-load-balancing) | ✅ Complete | ALB, App Gateway |
 | 07 | IaC with Terraform/Bicep | Upcoming | Terraform, Bicep |
 | 08 | BGP Lab | Upcoming | BGP, Route filtering |
 | 09 | Full Hybrid Cloud Lab | Upcoming | AD, DNS sync, VPN |
