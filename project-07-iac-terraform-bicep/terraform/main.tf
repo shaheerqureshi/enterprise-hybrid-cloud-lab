@@ -58,3 +58,24 @@ resource "azurerm_subnet_network_security_group_association" "web" {
   subnet_id = azurerm_subnet.web.id
   network_security_group_id = azurerm_network_security_group.lab.id
 }
+
+resource "azurerm_public_ip" "lab" {
+  name = "pip-terraform-lab"
+  resource_group_name = azurerm_resource_group.lab.name
+  location = azurerm_resource_group.lab.location
+  allocation_method = "Static"
+  sku = "Standard"
+}
+
+resource "azurerm_network_interface" "lab" {
+  name = "nic-terraform-lab"
+  resource_group_name = azurerm_resource_group.lab.name
+  location = azurerm_resource_group.lab.location
+
+  ip_configuration {
+    name = "internal"
+    subnet_id = azurerm_subnet.web.id
+    private_ip_address_allocation = "Dynamic"
+    public_ip_address_id = azurerm_public_ip.lab.id
+  }
+}
