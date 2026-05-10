@@ -35,3 +35,26 @@ resource "azurerm_subnet" "data" {
   virtual_network_name = azurerm_virtual_network.lab.name
   address_prefixes = [ "10.10.2.0/24" ]
 }
+
+resource "azurerm_network_security_group" "lab" {
+  name = "nsg-terraform-lab"
+  resource_group_name = azurerm_resource_group.lab.name
+  location = azurerm_resource_group.lab.location
+
+  security_rule {
+    name = "Allow-SSH"
+    priority = 100
+    direction = "Inbound"
+    access = "Allow"
+    protocol = "Tcp"
+    source_port_range = "*"
+    destination_port_range = "22"
+    source_address_prefix = "*"
+    destination_address_prefix = "*"
+  }
+}
+
+resource "azurerm_subnet_network_security_group_association" "web" {
+  subnet_id = azurerm_subnet.web.id
+  network_security_group_id = azurerm_network_security_group.lab.id
+}
