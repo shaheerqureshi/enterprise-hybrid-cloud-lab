@@ -79,3 +79,26 @@ resource "azurerm_network_interface" "lab" {
     public_ip_address_id = azurerm_public_ip.lab.id
   }
 }
+
+resource "azurerm_linux_virtual_machine" "lab" {
+  name = "vm-terraform-lab"
+  resource_group_name = azurerm_resource_group.lab.name
+  location = azurerm_resource_group.lab.location
+  size = "Standard_B1s"
+  admin_username = "azureuser"
+  admin_password = var.admin_password
+  disable_password_authentication = false
+  network_interface_ids = [ azurerm_network_interface.lab.id ]
+
+  os_disk {
+    caching = "ReadWrite"
+    storage_account_type = "Standard_LRS"
+  }
+
+  source_image_reference {
+    publisher = "Canonical"
+    offer = "001-con-ubuntu-server-jammy"
+    sku = "22_04-lts"
+    version = "lates"
+  }
+}
