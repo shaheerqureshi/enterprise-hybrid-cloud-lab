@@ -84,7 +84,7 @@ resource "azurerm_linux_virtual_machine" "lab" {
   name = "vm-terraform-lab"
   resource_group_name = azurerm_resource_group.lab.name
   location = azurerm_resource_group.lab.location
-  size = "Standard_B1s"
+  size = "Standard_D2s_v3"
   admin_username = "azureuser"
   admin_password = var.admin_password
   disable_password_authentication = false
@@ -97,8 +97,8 @@ resource "azurerm_linux_virtual_machine" "lab" {
 
   source_image_reference {
     publisher = "Canonical"
-    offer = "001-con-ubuntu-server-jammy"
-    sku = "22_04-lts"
-    version = "lates"
+    offer = "UbuntuServer"
+    sku = "18.04-LTS"
+    version = "latest"
   }
 }
