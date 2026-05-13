@@ -17,7 +17,7 @@ Built alongside completing CCNA and AZ-104 certifications.
 | 07 | [IaC with Terraform/Bicep](./project-07-iac-terraform-bicep) | ✅ Complete | Terraform, Bicep |
 | 08 | [BGP Lab](./project-08-bgp-lab) | ✅ Complete | BGP, Route filtering |
 | 09 | [Full Hybrid Cloud Lab](./project-09-hybrid-cloud) | ✅ Complete | AD, DNS sync, VPN |
-| 10 | Network Observability | Upcoming | Log Analytics, KQL |
+| 10 | [Network Observability](./project-10-network-observability) | ✅ Complete | Log Analytics, KQL |
 | 11 | Azure Firewall + Security | Upcoming | Firewall, Defender |
 | 12 | Security Audit Automation | Upcoming | PowerShell, Python |
 | 🏆 | Enterprise Capstone | Upcoming | Everything combined |
