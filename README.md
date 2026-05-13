@@ -18,7 +18,7 @@ Built alongside completing CCNA and AZ-104 certifications.
 | 08 | [BGP Lab](./project-08-bgp-lab) | ✅ Complete | BGP, Route filtering |
 | 09 | [Full Hybrid Cloud Lab](./project-09-hybrid-cloud) | ✅ Complete | AD, DNS sync, VPN |
 | 10 | [Network Observability](./project-10-network-observability) | ✅ Complete | Log Analytics, KQL |
-| 11 | Azure Firewall + Security | Upcoming | Firewall, Defender |
+| 11 | [Azure Firewall + Security](./project-11-azure-firewall) | ✅ Complete | Firewall, Defender |
 | 12 | Security Audit Automation | Upcoming | PowerShell, Python |
 | 🏆 | Enterprise Capstone | Upcoming | Everything combined |
 
