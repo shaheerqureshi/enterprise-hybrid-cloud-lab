@@ -19,7 +19,7 @@ Built alongside completing CCNA and AZ-104 certifications.
 | 09 | [Full Hybrid Cloud Lab](./project-09-hybrid-cloud) | ✅ Complete | AD, DNS sync, VPN |
 | 10 | [Network Observability](./project-10-network-observability) | ✅ Complete | Log Analytics, KQL |
 | 11 | [Azure Firewall + Security](./project-11-azure-firewall) | ✅ Complete | Firewall, Defender |
-| 12 | Security Audit Automation | Upcoming | PowerShell, Python |
+| 12 | [Security Audit Automation](./project-12-security-audit) | ✅ Complete | PowerShell, Python |
 | 🏆 | Enterprise Capstone | Upcoming | Everything combined |
 
 ## Certifications
