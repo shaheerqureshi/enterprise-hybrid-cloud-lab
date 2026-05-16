@@ -1,0 +1,31 @@
+﻿============================================
+  AZURE SECURITY AUDIT REPORT
+  Generated: 2026-05-15 19:35:02
+  Subscription: 7b01d9ac-7159-4a86-b68c-773c66f39156
+============================================
+
+CHECK 1: VMs with direct public IP exposure
+--------------------------------------------
+[OK] No VMs with direct public IP exposure found
+
+CHECK 2: NSGs with SSH or RDP open to internet
+------------------------------------------------
+[OK] No dangerous open NSG rules found
+
+CHECK 3: Storage accounts with public blob access
+--------------------------------------------------
+[OK] No storage accounts with public blob access found
+
+CHECK 4: Unattached public IPs (wasting money)
+------------------------------------------------
+[OK] No unattached public IPs found
+
+CHECK 5: Subnets with no NSG associated
+----------------------------------------
+[OK] All subnets have NSG protection
+
+============================================
+  AUDIT SUMMARY
+  Total findings: 0
+  Status: CLEAN - No critical issues found
+============================================
