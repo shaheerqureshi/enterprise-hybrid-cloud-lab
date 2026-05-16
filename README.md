@@ -20,7 +20,7 @@ Built alongside completing CCNA and AZ-104 certifications.
 | 10 | [Network Observability](./project-10-network-observability) | ✅ Complete | Log Analytics, KQL |
 | 11 | [Azure Firewall + Security](./project-11-azure-firewall) | ✅ Complete | Firewall, Defender |
 | 12 | [Security Audit Automation](./project-12-security-audit) | ✅ Complete | PowerShell, Python |
-| 🏆 | Enterprise Capstone | Upcoming | Everything combined |
+| 🏆 | [Enterprise Capstone](./Capstone) | ✅ Complete | Everything combined |
 
 ## Certifications
 - ✅ Cisco CCNA — Apr 2026
